@@ -1,11 +1,10 @@
 const PublicRouteNames = {
-    HOME: "home",
-    ABOUT: "about",
-    CONTACT_US: "contact-us",
-    BLOG: "blog",
-    FAQ: "faq",
-    TERMS_OF_SERVICE: "terms-of-service",
-    PRIVACY_POLICY: "privacy-policy",
+    LOGIN: '/login',
+    SIGN_UP: '/sign-up',
+    FORGOT_PASSWORD: '/forgot-password',
+    RESET_PASSWORD: '/reset-password',
+    VERIFY_EMAIL: '/verify-email',
+    HOME: '/',
 };
 
 export default PublicRouteNames;
