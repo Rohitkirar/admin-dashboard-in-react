@@ -1,7 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { PublicRoutes } from "./Routes";
+import { PrivateRoutes, PublicRoutes } from "./Routes";
 import MasterLayout from "../layouts/MasterLayout";
+import AuthProtected from "./AuthProtected";
+import AuthRoutes from "./AuthRoutes";
 
 const Index = () => {
   return (
@@ -13,10 +15,22 @@ const Index = () => {
             path={route.path}
             element={
               route.headerLess ? (
-                route.element
+                <AuthRoutes>{route.element}</AuthRoutes>
               ) : (
                 <MasterLayout element={route.element} />
               )
+            }
+          />
+        ))}
+
+        {PrivateRoutes.map((route, index) => (
+          <Route
+            key={index}
+            path={route.path}
+            element={
+              <AuthProtected>
+                <MasterLayout element={route.element} />
+              </AuthProtected>
             }
           />
         ))}

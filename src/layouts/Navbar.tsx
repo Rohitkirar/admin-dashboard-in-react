@@ -54,7 +54,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="rounded-lg border shadow-lg bg-white border-stone-200 shadow-stone-950/5 mx-auto w-full max-w-screen-xl">
+    <nav className="rounded-lg border shadow-sm bg-white border-stone-200 shadow-stone-950/5 w-full">
       <div className="flex items-center p-2">
         <a
           href="#"

@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "12345678",
+      "role": "admin",
+      "accessToken": "abdfhsofs-sdfj-sdfjdlsjsdlfdfd",
+      "createdAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "podybukusa",
+      "email": "becilo@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "accessToken": "0523cdd3-f29c-459b-ad47-2926f515b99a",
+      "createdAt": "2026-06-06T10:46:24.391Z"
+    },
+    {
+      "id": 3,
+      "name": "simibobys",
+      "email": "jogun@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "accessToken": "1d8b313f-bd88-470c-ba08-dacbf80c67c5",
+      "createdAt": "2026-06-06T11:29:51.307Z"
+    },
+    {
+      "name": "Tyler Bender",
+      "email": "defyfy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "name": "Byron Mccormick",
+      "email": "rezip@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "name": "Hall Graham",
+      "email": "gajahede@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "name": "test test",
+      "email": "test.subadmin@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "name": "Nyssa Head",
+      "email": "gosovamito@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:42:48.018Z",
+      "id": 8
+    },
+    {
+      "name": "Carly Luna",
+      "email": "wolegugy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:42:56.682Z",
+      "id": 9
+    },
+    {
+      "name": "Merrill Lancaster",
+      "email": "ludevej@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:43:01.785Z",
+      "id": 10
+    },
+    {
+      "name": "Kathleen Leblanc",
+      "email": "perevisy@mailinator.com",
+      "password": "Accusantium eos quis vel ratione illum delectus enim recusandae Libero aliquip sequi molestias ut in qui vel nisi omnis",
+      "role": "user",
+      "createdAt": "2026-06-06T13:43:48.138Z",
+      "id": 11
+    },
+    {
+      "name": "Dillon Serrano",
+      "email": "jaxakix@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:07.522Z",
+      "id": 12
+    },
+    {
+      "name": "Keely Manning",
+      "email": "fajojaraw@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:12.873Z",
+      "id": 13
+    },
+    {
+      "name": "Vladimir Finley",
+      "email": "dodunihav@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:23.089Z",
+      "id": 14
+    },
+    {
+      "name": "Anastasia Weaver",
+      "email": "rexi@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:35.954Z",
+      "id": 15
+    },
+    {
+      "name": "Calvin Moss",
+      "email": "ligi@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:42.210Z",
+      "id": 16
+    },
+    {
+      "name": "Chase Rosa",
+      "email": "hezafox@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:44:48.482Z",
+      "id": 17
+    },
+    {
+      "name": "Amir Velasquez",
+      "email": "caqijyco@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:45:04.538Z",
+      "id": 18
+    },
+    {
+      "name": "Stella Dunlap",
+      "email": "lafer@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "user",
+      "createdAt": "2026-06-06T13:45:12.754Z",
+      "id": 19
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

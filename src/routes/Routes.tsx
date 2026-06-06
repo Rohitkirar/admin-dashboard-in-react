@@ -1,18 +1,15 @@
-import React, { lazy } from "react";
-import PrivateRouteNames from "../constants/PrivateRouteNames";
+import { lazy } from "react";
 import PublicRouteNames from "../constants/PublicRouteNames";
 import type { RouteProps } from "react-router-dom";
+import PrivateRouteNames from "../constants/PrivateRouteNames";
 
 const HomePage = lazy(() => import("../pages/HomePage"));
-const LoginPage = lazy(() => import("../pages/LoginPage"));
-const RegisterPage = lazy(() => import("../pages/RegisterPage"));
+const LoginPage = lazy(() => import("../pages/auth/LoginPage"));
+const RegisterPage = lazy(() => import("../pages/auth/RegisterPage"));
+const UserListPage = lazy(() => import("../pages/user/UserListPage"));
+const UserCreatePage = lazy(() => import("../pages/user/UserCreatePage"));
 
 const PublicRoutes: Array<{ headerLess: boolean } & RouteProps> = [
-  {
-    path: "/",
-    element: <HomePage />,
-    headerLess: false,
-  },
   {
     path: PublicRouteNames.LOGIN,
     element: <LoginPage />,
@@ -25,10 +22,18 @@ const PublicRoutes: Array<{ headerLess: boolean } & RouteProps> = [
   },
 ];
 
-const PrivateRoutes: Array<{ path: string; component: React.FC }> = [
+const PrivateRoutes: Array<RouteProps> = [
   {
-    path: PrivateRouteNames.DASHBOARD,
-    component: () => <h1>Dashboard Page</h1>,
+    path: PrivateRouteNames.HOME,
+    element: <HomePage />,
+  },
+  {
+    path: PrivateRouteNames.USERS,
+    element: <UserListPage />,
+  },
+  {
+    path: PrivateRouteNames.USER_CREATE,
+    element: <UserCreatePage />,
   },
 ];
 
